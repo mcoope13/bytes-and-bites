@@ -32,66 +32,56 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="hero-area">
             That's the way the cookie crumbles
         </section>
-        <aside>
-             <h3>Be in the know</h3>
-            <input type="text" name="name" value="email address">
-            <input type="button" value="Take a Bite!">       
-        </aside>
-    
-    </main>
-
-  <!--  
-    <section>
-        <h2>That's the way the cookie crumbles</h2>
-    </section>
-    <section>
-        <div>
+        <section class="form-description">
             <h3>Want to hear about our recipes for success?</h3>
             <p>Get helpful baking hints, delicious recipes, fun decorating ideas, all with a healthy dose of sugar and spice. Sign up below!</p>
-        </div>
-        <div>
-            <h3>Be in the know</h3>
-            <input type="text" name="name" value="email address">
-            <input type="button" value="Take a Bite!">
-        </div>
-    </section>
-    <section>
-        <h2>Our desserts are unique, we serve bites with a side of bytes. Baking is a science, so we've applied all things tech and science-y to our treats!</h2>
-        <div>
-            <img src="">
-            <p><span>Cell Cookie</span><br/>The mitochondria is the powerhouse of the cell and this cookie decorated like a cell will be the powerhouse of your afternoon.</p> 
-        </div>
-        <div>
-            <img src="">
-            <p><span>Cinnamon Bunsen</span><br/>Bunsen burners are hot, hot, hot. These rolls are warm, warm, warm and full of cinnamony and iced goodness.</p> 
-        </div>
-        <div>
-            <img src="">
-            <p><span>Quantum Cupcake</span><br/>Nothing will get you moving like a kinetic cupcake, iced with buttercream and featuring an atom shaped decoration on top.</p> 
-        </div>
-        <div>
-            <img src="">
-            <p><span>Mineral Muffins</span><br/>Ready ORE not, these muffins are chock full of "minerals," and by that we mean blueberries or chocolate chips.</p> 
-        </div>
-        <div>
-            <img src="">
-            <p><span>Atomic Apple Pie</span><br/>You'll be leaving particles of buttery flaky crust all over your napkin as soon as you get your hands on a warm slice.</p> 
-        </div>
-        <div>
-            <img src="">
-            <p><span>ThermomeTART</span><br/>What's a scientist without their equipment? It can't measure hot or cold, but it measures up against any other tart you'll find.</p> 
-        </div>
-    </section>
-    <section>
-        <h3>Enjoy science and treats at the same time and join the ranks of happy customers</h3>
-        <img src="">
-        <h4>Card Art Company<br/>January 2019</h4>
-        <p>The Card Art Company was hosting an arts crafts night for a local Women in Tech coding group. They didn't want to spare any detail so they ordered our Megabyte tray. Each attendee was able to enjoy a host of different desserts as well as a fun science fact about each one. Good times were had by all.</p>
-    </section>
-    <footer>
+        </section>
+        <aside>
+            <div class="form">
+                <h3>Be in the know</h3>
+                <input type="text" name="name" value="email address">
+                <input type="button" value="Take a Bite!"> 
+            </div>
+        </aside>
+        <section class="features">
+            <h2>Our desserts are unique, we serve bites with a side of bytes. Baking is a science, so we've applied all things tech and science-y to our treats!</h2>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>Cell Cookie</span><br/>The mitochondria is the powerhouse of the cell and this cookie decorated like a cell will be the powerhouse of your afternoon.</p>
+            </article>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>Cinnamon Bunsen Stroopwafel</span><br/>Bunsen burners are hot, hot, hot. These rolls are warm, warm, warm and full of cinnamony and iced goodness.</p>
+            </article>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>Quantum Cake</span><br/>Nothing will get you moving like a kinetic cupcake, iced with buttercream and featuring an atom shaped decoration on top.</p>
+            </article>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>Chemistry Canes</span><br/>It's elemental, my dear baked good fan, that we would make candy too.</p>
+            </article>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>Atomic Ice Cream</span><br/>Plus a slice of our equally atomic apple pie couldn't be a better pairing</p>
+            </article>
+            <article class="features-item">
+                <p class="fontawesome-icon"></p>
+                <p class="features-item-description"><span>ThermomeTART</span><br/>What's a scientist without their equipment? It can't measure hot or cold, but it measures up against any other tart you'll find.</p>
+            </article>
+        </section>
+        <section class="reviews">
+            <div class="content-wrapper">
+                <img src="">
+                <h4>Card Art Company<br/>January 2019</h4>
+                <p>The Card Art Company was hosting an arts crafts night for a local Women in Tech coding group. They didn't want to spare any detail so they ordered our Megabyte tray. Each attendee was able to enjoy a host of different desserts as well as a fun science fact about each one. Good times were had by all.</p>            
+            </div>
+        </section>
+    </main>
+        <footer>
         <div class="content-wrapper">
             <div class="footer-content">
                 <address class="contact">
@@ -112,16 +102,8 @@
             </div>
         </div>
     </footer>
-    
-    -->
-    
-    
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
