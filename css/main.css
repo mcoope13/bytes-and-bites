@@ -97,8 +97,109 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -- Base Header - Footer Styles -- */
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
 
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
 
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* -- Base Main Styles -- */
+.hero-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: row wrap;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.feature .features-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: row wrap;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: row wrap;
+}
 
 
 
