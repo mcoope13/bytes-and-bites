@@ -413,10 +413,10 @@ aside {
     /* Aside Area */
     
     aside .content-wrapper {
-        margin: 50px o;
+        margin: 50px 0;
         display: flex;
         justify-content: space-between;
-        flex: row wrap;
+        flex-flow: row wrap;
     }
     
     aside .content-wrapper .form-description,
@@ -510,8 +510,58 @@ aside {
 
 /*Desktop styles here*/
 @media screen and (min-width: 1200px) {
+    
+    /* Homepage Styles */
+    .content-wrapper {
+        max-width: 960px;
+    }
+    
+    .hero-area h1 {
+        width: 60%;
+    }
+    
 
+        aside .content-wrapper {
+        justify-content: space-around;
+    }
+    
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 30%;
 
+    }
+
+    
+    .features h2 {
+        width: 90%;
+    }
+        .features article {
+        flex-basis: 33%;
+    }
+    
+    .reviews article div {
+        width: 44%;
+    }
+    
+    /* FAQ Styles */
+    .faq h2 {
+        width: 100%;
+    }
+    
+    .faq-content {
+        flex-basis: 42%;
+    }
+    
+    
+    /* About Styles */
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 95%;
+    }
+    
+    .contact-section .content-wrapper h2 {
+        margin-bottom: 36px;
+    }
 
 }
 
